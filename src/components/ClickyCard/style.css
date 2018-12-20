@@ -1,0 +1,25 @@
+.card {
+  background: gray;
+  border-radius: 2px;
+  height: 200px;
+  margin: 0.5rem;
+  position: relative;
+  width: 250px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  text-align: left;
+}
+
+.card > .img-container {
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  background: white;
+}
+.card > .img-container > img {
+  width: 50%;
+}
+
+/* make card pulse */
+.card > .remove:hover {
+  color: #d50000;
+}
