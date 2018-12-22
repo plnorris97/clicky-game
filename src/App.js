@@ -1,8 +1,7 @@
 import React, { Component } from "react";
-import Wrapper from "./components/Wrapper";
-import Navbar from "./components/Navbar";
-import Jumbotron from "./components/Jumbotron";
-import ClickyCard from "./components/ClickyCard";
+import Navbar from "./components/Navbar/Navbar";
+import Jumbotron from "./components/Jumbotron/Jumbotron";
+import ClickyCard from "./components/ClickyCard/index";
 import cards from "./cards.json";
 
 class App extends Component {
@@ -17,6 +16,7 @@ class App extends Component {
       <div className="container">
        <Navbar />
         <Jumbotron />
+        <ClickyCard />
         {this.state.cards.map(card => (
           <ClickyCard
             id={card.id}

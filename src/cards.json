@@ -1,27 +1,27 @@
 [
   {
     "id": 1,
-    "image": "https://en.wikipedia.org/wiki/File:Monument_avenue_richmond_virginia.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Monument_avenue_richmond_virginia.jpg/800px-Monument_avenue_richmond_virginia.jpg"
   },
   {
     "id": 2,
-    "image": "https://en.wikipedia.org/wiki/File:Main_Street_Station.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Main_Street_Station.jpg"
   },
   {
     "id": 3,
-    "image": "https://en.wikipedia.org/wiki/File:Jackson_Ward,_Richmond,_Virginia.JPG"
+    "image": "https://en.wikipedia.org/wiki/File:Jackson_Ward,_Richmond,_Virginia.jpg"
   },
   {
     "id": 4,
-    "image": "https://en.wikipedia.org/wiki/File:St_johns_episcopal_church_richmond_va.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/5d/St_johns_episcopal_church_richmond_va.jpg"
   },
   {
     "id": 5,
-    "image": "https://en.wikipedia.org/wiki/File:People_on_rocks_of_Belle_Isle,_James_River,_Richmond,_Virginia.JPG"
+    "image": "https://en.wikipedia.org/wiki/File:People_on_rocks_of_Belle_Isle,_James_River,_Richmond,_Virginia.jpg"
   },
   {
     "id": 6,
-    "image": "https://pkmngotrading.com/wiki/File:Altria_Landmark_Theater_-_Richmond,_VA.jpg"
+    "image": "https://pkmngotrading.com/mediawiki/images/4/45/Altria_Landmark_Theater_-_Richmond%2C_VA.jpg"
   },
   {
     "id": 7,
@@ -29,11 +29,11 @@
   },
   {
     "id": 8,
-    "image": "https://en.wikipedia.org/wiki/File:Richmond,_Virginia_skyline_01.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Richmond%2C_Virginia_skyline_01.jpg/800px-Richmond%2C_Virginia_skyline_01.jpg"
   },
   {
     "id": 9,
-    "image": "https://en.wikipedia.org/wiki/File:Hollywood_Cemetery_01.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Hollywood_Cemetery_01.jpg/800px-Hollywood_Cemetery_01.jpg"
   },
   {
     "id": 10,
@@ -41,10 +41,10 @@
   },
   {
     "id": 11,
-    "image": "https://en.wikipedia.org/wiki/File:BoatwrightTower.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/VCU_commons.JPG/800px-VCU_commons.JPG"
   },
   {
     "id": 12,
-    "image": "https://en.wikipedia.org/wiki/File:Manchester-Richmond_Bridge.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Manchester-Richmond_Bridge.jpg/800px-Manchester-Richmond_Bridge.jpg"
   }
 ]

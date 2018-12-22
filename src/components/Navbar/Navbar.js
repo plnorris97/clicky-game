@@ -1,5 +1,6 @@
 import React from "react";
-import Score from "./"
+// import Score from "./components/Score"
+import "./style.css";
 
 function Navbar(props) {
   return (
@@ -8,20 +9,20 @@ function Navbar(props) {
       <button
         className="navbar-toggler"
         data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
+        data-target="#navbarContent"
+        aria-controls="navbarContent"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
         <span className="navbar-toggler-icon" />
       </button>
 
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      <div className="collapse navbar-collapse" id="navbarContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
             <h4>Click an image to begin!</h4>
           </li>
-          <li className="nav-item">
+          <li className="nav-item" id="scoreboard">
            <h4>Score: {props.score} | Top Score: {props.TopScore}</h4>
           </li>
         </ul>
