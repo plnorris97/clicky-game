@@ -20,10 +20,10 @@ function Navbar(props) {
       <div className="collapse navbar-collapse" id="navbarContent">
         <ul className="navbar-nav mr-auto">
           <li className="nav-item">
-            <h4>Click an image to begin!</h4>
+            <h4 className="instructions">Click an image to begin!</h4>
           </li>
           <li className="nav-item" id="scoreboard">
-           <h4>Score: {props.score} | Top Score: {props.TopScore}</h4>
+           <h4 className="score">Score: {props.score} | Top Score: {props.TopScore}</h4>
           </li>
         </ul>
         
