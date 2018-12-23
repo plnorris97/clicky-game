@@ -1,13 +1,13 @@
 .navbar {
     padding: 30px;
     text-align: center;
-    color: blue;
+    color: black;
     margin-bottom: 0px
 }
 
 .nav-item {
-    padding-right: 80px; 
-    padding-left: 80px; 
+    padding-right: 60px; 
+    padding-left: 60px; 
 }
 
 .instructions {
@@ -16,5 +16,5 @@
 
 .score {
     margin-left: 20px;
-
+    float: right;
 }

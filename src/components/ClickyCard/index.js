@@ -12,7 +12,7 @@ const ClickyCard = props => (
     onClick={() => props.handleClick(props.id)}
   >
     <div className="img-container">
-      <img alt={props.name} src={props.image} />
+      <img alt={props.id} src={props.image} />
     </div>
   </div>
 );

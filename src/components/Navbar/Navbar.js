@@ -5,7 +5,7 @@ import "./style.css";
 function Navbar(props) {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-     <h3>Clicky Game</h3>
+     <h3>Richmond Rocks!</h3>
       <button
         className="navbar-toggler"
         data-toggle="collapse"
@@ -23,7 +23,7 @@ function Navbar(props) {
             <h4 className="instructions">Click an image to begin!</h4>
           </li>
           <li className="nav-item" id="scoreboard">
-           <h4 className="score">Score: {props.score} | Top Score: {props.TopScore}</h4>
+           <h4 className="score">Score: {props.currentScore} | Top Score: {props.topScore}</h4>
           </li>
         </ul>
         

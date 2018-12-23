@@ -33,15 +33,15 @@ class App extends Component {
   };
 
   handleIncrement = () => {
-    const newScore = this.state.currentScore + 1;
+    const currentScore = this.state.currentScore + 1;
     this.setState({
-      currentScore: newScore,
+      currentScore: currentScore,
       correctIncorrect: ""
     });
-    if (newScore >= this.state.topScore) {
-      this.setState({ topScore: newScore });
+    if (currentScore >= this.state.topScore) {
+      this.setState({ topScore: currentScore });
     }
-    else if (newScore === 12) {
+    else if (currentScore === 12) {
       this.setState({ correctIncorrect: "You win!" });
     }
     this.handleShuffle();
@@ -51,7 +51,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightWrong: "Glaven!",
+      correctIncorrect: "Sorry that's not right",
       clicked: []
     });
     this.handleShuffle();

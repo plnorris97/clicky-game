@@ -3,5 +3,10 @@
     background-image: url("James-River-Whitewater-Rafting.jpg");
     height: 100vh;
     background-size: cover;
-    color: white;
+    color: white
+}
+
+.background-image {
+    opacity: 0.5;
+
 }

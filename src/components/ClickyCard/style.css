@@ -1,7 +1,6 @@
 .card {
-  background: gray;
   border-radius: 2px;
-  height: 200px;
+  height: 160px;
   margin: 0.5rem;
   position: relative;
   display: inline-block;
@@ -13,15 +12,18 @@
 .card > .img-container {
   height: 100%;
   overflow: hidden;
-  text-align: center;
-  background: white;
+  background: white
 }
 .card > .img-container > img {
   width: 100%;
 }
 
+.img {
+  vertical-align: middle
+}
+
 /* make card pulse */
 
-.card > .remove:hover {
+/* .card > .remove:hover {
   color: #d50000;
-}
+} */
