@@ -2,7 +2,7 @@
 
 ## Summary
 
-Clicky Game is a test of your memory and hones in on your "clicking" skills. 
+Clicky Game is a test of your memory and hones in on your "clicking" skills. Access the game here: https://afternoon-plains-51867.herokuapp.com/
 
 
 ## Instructions
